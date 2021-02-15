@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Projects\Electronics - OCP_OVP_UVP\Schematic\2021_Project_OCP_Ideal_Diode\2021_Project_OCP_Ideal_Diode.sch</source>
+    <date>2/15/2021 9:03:22 AM</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>L.E.D.</company>
+        <rev/>
+        <date/>
+        <source>2021_Project_OCP_Ideal_Diode.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R101">
+      <value>RC0603FR-07100RL</value>
+      <footprint>Passives:R_0603_Handsolder</footprint>
+      <fields>
+        <field name="Manufacturer">Susumu</field>
+        <field name="P_Rating_U">1/10W</field>
+        <field name="P_Tolerance">1%</field>
+        <field name="P_Value">100R</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Resistors_0603" part="RC0603FR-07100RL" description="Resistor, 100R, 1%, 1/10W, 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA2DDC</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>C0603C104K5RACAUTO</value>
+      <footprint>Passives:C_0603_Handsolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="P_Rating_U">50V</field>
+        <field name="P_Tolerance">X7R</field>
+        <field name="P_Value">0.1uF</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Capacitor_0603" part="C0603C104K5RACAUTO" description="Ceramic Capacitor, 0.1uF, 50V, X7R, 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA8D3D</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>MCP6V51T-E_OT</value>
+      <footprint>SOT:SOT-23-5_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="P_Digikey">MCP6V51T-E/OT</field>
+        <field name="P_Rating_U">4.5V-45V</field>
+        <field name="P_Tolerance">1.2V/us</field>
+        <field name="P_Value">1-CH</field>
+        <field name="Package">SOT-23-5</field>
+      </fields>
+      <libsource lib="OpAmps" part="MCP6V51T-E_OT" description="Opamp, 1-CH, Zero Drift, Rail-to-rail, 4.5V-45V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DE099</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>CL10A105KB8NNNC</value>
+      <footprint>Passives:C_0603_Handsolder</footprint>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="P_Rating_U">50V</field>
+        <field name="P_Tolerance">X5R</field>
+        <field name="P_Value">1uF</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Capacitor_0603" part="CL10A105KB8NNNC" description="Ceramic Capacitor, 1uF, 50V, X5R, 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCBA4E4</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>CL10X106MO8NRNC</value>
+      <footprint>Passives:C_0603_Handsolder</footprint>
+      <fields>
+        <field name="P_Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="P_Rating">16V</field>
+        <field name="P_Value">10uF</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Capacitor_0603" part="CL10X106MO8NRNC" description="Ceramic Capacitor, 10uF, 16V, X6S, 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCB777A</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>ZXTR2112F-7</value>
+      <footprint>SOT:SOT-23-3</footprint>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="P_Rating">15mA</field>
+        <field name="P_Tolerance">60V</field>
+        <field name="P_Value">12V</field>
+        <field name="Package">SOT-23-3</field>
+      </fields>
+      <libsource lib="LDO" part="ZXTR2112F-7" description="IC, LDO, 12V, 15mA, SOT-23-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCAB92B</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>THJP0612AST1</value>
+      <footprint>ThermalJumper:THJP0612AST1</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Thin Film</field>
+        <field name="P_Digikey">764-THJP0612AST1CT-ND</field>
+        <field name="P_Rating">4 C/W</field>
+        <field name="P_Tolerance">259 mW/C</field>
+        <field name="P_Value">TJ</field>
+        <field name="Package">0612</field>
+      </fields>
+      <libsource lib="Jumpers" part="THJP0612AST1" description="Thermal Jumper, 4 C/W, Vishay, 0612"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60131AC3</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>THJP0612AST1</value>
+      <footprint>ThermalJumper:THJP0612AST1</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Thin Film</field>
+        <field name="P_Digikey">764-THJP0612AST1CT-ND</field>
+        <field name="P_Rating">4 C/W</field>
+        <field name="P_Tolerance">259 mW/C</field>
+        <field name="P_Value">TJ</field>
+        <field name="Package">0612</field>
+      </fields>
+      <libsource lib="Jumpers" part="THJP0612AST1" description="Thermal Jumper, 4 C/W, Vishay, 0612"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601335A3</tstamp>
+    </comp>
+    <comp ref="P105">
+      <value>MH_1POS_2.5MM</value>
+      <footprint>MountingHoles_sg:MountingHole_2.5mm_Pad_Via</footprint>
+      <fields>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">2.5MM</field>
+        <field name="P_Value">1POS_2.5MM_I</field>
+        <field name="Package">MH_M2.5</field>
+      </fields>
+      <libsource lib="2021_Project_OCP_Ideal_Diode-rescue" part="MH_1POS_2.5MM-MountingHoles_sg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600A49C1</tstamp>
+    </comp>
+    <comp ref="P106">
+      <value>MH_1POS_2.5MM</value>
+      <footprint>MountingHoles_sg:MountingHole_2.5mm_Pad_Via</footprint>
+      <fields>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">2.5MM</field>
+        <field name="P_Value">1POS_2.5MM_I</field>
+        <field name="Package">MH_M2.5</field>
+      </fields>
+      <libsource lib="2021_Project_OCP_Ideal_Diode-rescue" part="MH_1POS_2.5MM-MountingHoles_sg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600A65C1</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>DESD34VS2SO</value>
+      <footprint>SOT:SOT-23-3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="P_Rating">43Vcl</field>
+        <field name="P_Value">34Vm</field>
+        <field name="Package">SOT-23-3</field>
+      </fields>
+      <libsource lib="Diodes" part="DESD34VS2SO" description="TVS Diode, 34Vm, 43VCL, 36VBR, SOT-23-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B05BE</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>ERA-3AEB103V</value>
+      <footprint>Passives:R_0603_Handsolder</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="P_Digikey">P10KDBCT-ND</field>
+        <field name="P_Rating_U">1/10W</field>
+        <field name="P_Tolerance">0.1%</field>
+        <field name="P_Value">10k</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Resistors_0603" part="ERA-3AEB103V" description="Resistor, 10k, 0.1%, 1/10W, 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B6BEA</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>PSMNR70-40SSHJ</value>
+      <footprint>SOT:SOT-1235</footprint>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="P_Digikey">1727-8560-1-ND</field>
+        <field name="P_Rating">40V/425A</field>
+        <field name="P_Tolerance">0.7mDCR</field>
+        <field name="P_Value">NMOS</field>
+        <field name="Package">SOT-1235</field>
+      </fields>
+      <libsource lib="Transistors" part="PSMNR70-40SSHJ" description="MOSFET, N-Channel, 40V, 425A, 375W, SOT-1235"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BE4AB</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>RMCF0603ZT0R00</value>
+      <footprint>Passives:R_0603_Handsolder</footprint>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc.</field>
+        <field name="P_Rating">1/10W</field>
+        <field name="P_Value">0R</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Resistors_0603" part="RMCF0603ZT0R00" description="Resistor, 0R, 1/10W, 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B32BA</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>SMD_1POS_8MM</value>
+      <footprint>Connectors_sg:SMD_1POS_8MM</footprint>
+      <fields>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">8MM</field>
+        <field name="P_Value">1POS</field>
+        <field name="Package">SMD</field>
+      </fields>
+      <libsource lib="Connectors" part="SMD_1POS_8MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CA5BF</tstamp>
+    </comp>
+    <comp ref="P104">
+      <value>SMD_1POS_8MM</value>
+      <footprint>Connectors_sg:SMD_1POS_8MM</footprint>
+      <fields>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">8MM</field>
+        <field name="P_Value">1POS</field>
+        <field name="Package">SMD</field>
+      </fields>
+      <libsource lib="Connectors" part="SMD_1POS_8MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CBBF2</tstamp>
+    </comp>
+    <comp ref="P103">
+      <value>SMD_1POS_8MM</value>
+      <footprint>Connectors_sg:SMD_1POS_8MM</footprint>
+      <fields>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">8MM</field>
+        <field name="P_Value">1POS</field>
+        <field name="Package">SMD</field>
+      </fields>
+      <libsource lib="Connectors" part="SMD_1POS_8MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CC9B9</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>SMD_1POS_8MM</value>
+      <footprint>Connectors_sg:SMD_1POS_8MM</footprint>
+      <fields>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">8MM</field>
+        <field name="P_Value">1POS</field>
+        <field name="Package">SMD</field>
+      </fields>
+      <libsource lib="Connectors" part="SMD_1POS_8MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CD7CA</tstamp>
+    </comp>
+    <comp ref="P107">
+      <value>MH_1POS_2.5MM</value>
+      <footprint>MountingHoles_sg:MountingHole_2.5mm_Pad_Via</footprint>
+      <fields>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">2.5MM</field>
+        <field name="P_Value">1POS_2.5MM_I</field>
+        <field name="Package">MH_M2.5</field>
+      </fields>
+      <libsource lib="2021_Project_OCP_Ideal_Diode-rescue" part="MH_1POS_2.5MM-MountingHoles_sg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601D12DF</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>THJP0612AST1</value>
+      <footprint>ThermalJumper:THJP0612AST1</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Thin Film</field>
+        <field name="P_Digikey">764-THJP0612AST1CT-ND</field>
+        <field name="P_Rating">4 C/W</field>
+        <field name="P_Tolerance">259 mW/C</field>
+        <field name="P_Value">TJ</field>
+        <field name="Package">0612</field>
+      </fields>
+      <libsource lib="Jumpers" part="THJP0612AST1" description="Thermal Jumper, 4 C/W, Vishay, 0612"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601D382C</tstamp>
+    </comp>
+    <comp ref="P108">
+      <value>MH_1POS_2.5MM</value>
+      <footprint>MountingHoles_sg:MountingHole_2.5mm_Pad_Via</footprint>
+      <fields>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">2.5MM</field>
+        <field name="P_Value">1POS_2.5MM_I</field>
+        <field name="Package">MH_M2.5</field>
+      </fields>
+      <libsource lib="2021_Project_OCP_Ideal_Diode-rescue" part="MH_1POS_2.5MM-MountingHoles_sg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601E6BCF</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2021_Project_OCP_Ideal_Diode-rescue" part="MH_1POS_2.5MM-MountingHoles_sg">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">MH_1POS_2.5MM-MountingHoles_sg</field>
+        <field name="Footprint">MountingHoles_sg:MountingHole_2.5mm_Pad_Via</field>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Value">1POS_2.5MM_I</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">2.5MM</field>
+        <field name="Package">MH_M2.5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_0603" part="C0603C104K5RACAUTO">
+      <description>Ceramic Capacitor, 0.1uF, 50V, X7R, 0603</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0603C104K5RACAUTO</field>
+        <field name="Footprint">Passives:C_0603_Handsolder</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="P_Value">0.1uF</field>
+        <field name="P_Rating_U">50V</field>
+        <field name="P_Tolerance">X7R</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_0603" part="CL10A105KB8NNNC">
+      <description>Ceramic Capacitor, 1uF, 50V, X5R, 0603</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL10A105KB8NNNC</field>
+        <field name="Footprint">Passives:C_0603_Handsolder</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="P_Value">1uF</field>
+        <field name="P_Rating_U">50V</field>
+        <field name="P_Tolerance">X5R</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_0603" part="CL10X106MO8NRNC">
+      <description>Ceramic Capacitor, 10uF, 16V, X6S, 0603</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL10X106MO8NRNC</field>
+        <field name="Footprint">Passives:C_0603_Handsolder</field>
+        <field name="P_Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="P_Value">10uF</field>
+        <field name="P_Rating">16V</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connectors" part="SMD_1POS_8MM">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SMD_1POS_8MM</field>
+        <field name="Footprint">Connectors_sg:SMD_1POS_8MM</field>
+        <field name="Manufacturer">CUSTOM</field>
+        <field name="P_Value">1POS</field>
+        <field name="P_Rating_U">##</field>
+        <field name="P_Tolerance">8MM</field>
+        <field name="Package">SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="DESD34VS2SO">
+      <description>TVS Diode, 34Vm, 43VCL, 36VBR, SOT-23-3</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DESD34VS2SO</field>
+        <field name="Footprint">SOT:SOT-23-3</field>
+        <field name="P_Value">34Vm</field>
+        <field name="P_Rating">43Vcl</field>
+        <field name="Package">SOT-23-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumpers" part="THJP0612AST1">
+      <description>Thermal Jumper, 4 C/W, Vishay, 0612</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">THJP0612AST1</field>
+        <field name="Footprint">ThermalJumper:THJP0612AST1</field>
+        <field name="P_Value">TJ</field>
+        <field name="Manufacturer">Vishay Thin Film</field>
+        <field name="P_Rating">4 C/W</field>
+        <field name="P_Tolerance">259 mW/C</field>
+        <field name="Package">0612</field>
+        <field name="P_Digikey">764-THJP0612AST1CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LDO" part="ZXTR2112F-7">
+      <description>IC, LDO, 12V, 15mA, SOT-23-3</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ZXTR2112F-7</field>
+        <field name="Footprint">SOT:SOT-23-3</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="P_Value">12V</field>
+        <field name="P_Rating">15mA</field>
+        <field name="P_Tolerance">60V</field>
+        <field name="Package">SOT-23-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="OUT" type="input"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpAmps" part="MCP6V51T-E_OT">
+      <description>Opamp, 1-CH, Zero Drift, Rail-to-rail, 4.5V-45V, SOT-23-5</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6V51T-E_OT</field>
+        <field name="Footprint">SOT:SOT-23-5_HandSoldering</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="P_Value">1-CH</field>
+        <field name="P_Tolerance">1.2V/us</field>
+        <field name="P_Rating_U">4.5V-45V</field>
+        <field name="Package">SOT-23-5</field>
+        <field name="P_Digikey">MCP6V51T-E/OT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-" type="power_in"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_0603" part="ERA-3AEB103V">
+      <description>Resistor, 10k, 0.1%, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERA-3AEB103V</field>
+        <field name="Footprint">Passives:R_0603_Handsolder</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="P_Value">10k</field>
+        <field name="P_Rating_U">1/10W</field>
+        <field name="P_Tolerance">0.1%</field>
+        <field name="Package">0603</field>
+        <field name="P_Digikey">P10KDBCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_0603" part="RC0603FR-07100RL">
+      <description>Resistor, 100R, 1%, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-07100RL</field>
+        <field name="Footprint">Passives:R_0603_Handsolder</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="P_Value">100R</field>
+        <field name="P_Rating_U">1/10W</field>
+        <field name="P_Tolerance">1%</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_0603" part="RMCF0603ZT0R00">
+      <description>Resistor, 0R, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RMCF0603ZT0R00</field>
+        <field name="Footprint">Passives:R_0603_Handsolder</field>
+        <field name="Manufacturer">Stackpole Electronics Inc.</field>
+        <field name="P_Value">0R</field>
+        <field name="P_Rating">1/10W</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistors" part="PSMNR70-40SSHJ">
+      <description>MOSFET, N-Channel, 40V, 425A, 375W, SOT-1235</description>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PSMNR70-40SSHJ</field>
+        <field name="Footprint">SOT:SOT-1235</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="P_Value">NMOS</field>
+        <field name="P_Rating">40V/425A</field>
+        <field name="P_Tolerance">0.7mDCR</field>
+        <field name="Package">SOT-1235</field>
+        <field name="P_Digikey">1727-8560-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2021_Project_OCP_Ideal_Diode-rescue">
+      <uri>D:\Projects\Electronics - OCP_OVP_UVP\Schematic\2021_Project_OCP_Ideal_Diode/2021_Project_OCP_Ideal_Diode-rescue.lib</uri>
+    </library>
+    <library logical="Capacitor_0603">
+      <uri>D:/kicadLibrary/Capacitor_0603.lib</uri>
+    </library>
+    <library logical="Connectors">
+      <uri>D:/kicadLibrary/Connectors.lib</uri>
+    </library>
+    <library logical="Diodes">
+      <uri>D:/kicadLibrary/Diodes.lib</uri>
+    </library>
+    <library logical="Jumpers">
+      <uri>D:/kicadLibrary/Jumpers.lib</uri>
+    </library>
+    <library logical="LDO">
+      <uri>D:/kicadLibrary/LDO.lib</uri>
+    </library>
+    <library logical="OpAmps">
+      <uri>D:/kicadLibrary/OpAmps.lib</uri>
+    </library>
+    <library logical="Resistors_0603">
+      <uri>D:/kicadLibrary/Resistors_0603.lib</uri>
+    </library>
+    <library logical="Transistors">
+      <uri>D:/kicadLibrary/Transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R104-Pad1)">
+      <node ref="U102" pin="3"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="2" name="/CATHODE">
+      <node ref="R102" pin="2"/>
+      <node ref="R103" pin="2"/>
+      <node ref="R106" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="P102" pin="1"/>
+      <node ref="Q101" pin="5"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C103" pin="2"/>
+      <node ref="P104" pin="1"/>
+      <node ref="C101" pin="2"/>
+      <node ref="U102" pin="2"/>
+      <node ref="U101" pin="1"/>
+      <node ref="C102" pin="2"/>
+      <node ref="R102" pin="1"/>
+      <node ref="P107" pin="1"/>
+      <node ref="P106" pin="1"/>
+      <node ref="P105" pin="1"/>
+      <node ref="Q101" pin="3"/>
+      <node ref="R103" pin="1"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="R104" pin="2"/>
+      <node ref="D101" pin="2"/>
+      <node ref="D101" pin="1"/>
+      <node ref="P108" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="Q101" pin="4"/>
+    </net>
+    <net code="4" name="+12V">
+      <node ref="C101" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="U102" pin="5"/>
+      <node ref="U101" pin="2"/>
+    </net>
+    <net code="5" name="VBUS">
+      <node ref="P103" pin="1"/>
+      <node ref="D101" pin="3"/>
+      <node ref="P101" pin="1"/>
+      <node ref="U101" pin="3"/>
+      <node ref="C102" pin="1"/>
+    </net>
+    <net code="6" name="Net-(Q101-Pad1)">
+      <node ref="R101" pin="2"/>
+      <node ref="Q101" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R101-Pad1)">
+      <node ref="R101" pin="1"/>
+      <node ref="U102" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R105-Pad1)">
+      <node ref="U102" pin="4"/>
+      <node ref="R105" pin="1"/>
+    </net>
+  </nets>
+</export>

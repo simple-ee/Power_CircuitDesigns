@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 20200228_PCM5100APWR-cache)(type Legacy)(uri "C:/Users/IronG/Documents/Projects/Electronics - DIYSoundCard/Reference/20200228_PCM5100APWR-cache.lib")(options "")(descr ""))
+  (lib (name 2021_Project_OCP_Ideal_Diode-rescue)(type Legacy)(uri ${KIPRJMOD}/2021_Project_OCP_Ideal_Diode-rescue.lib)(options "")(descr ""))
+)

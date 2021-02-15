@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MH_1POS_2.5MM-MountingHoles_sg
+#
+DEF MH_1POS_2.5MM-MountingHoles_sg P 0 40 Y Y 1 F N
+F0 "P" 0 100 60 H V C CNN
+F1 "MH_1POS_2.5MM-MountingHoles_sg" -50 -400 50 H I C CNN
+F2 "MountingHoles_sg:MountingHole_2.5mm_Pad_Via" 600 -200 60 V I C CNN
+F3 "" 0 150 60 H I C CNN
+F4 "CUSTOM" 550 650 50 H I C CNN "Manufacturer"
+F5 "1POS_2.5MM_I" 0 -100 25 H I C CNN "P_Value"
+F6 "##" 550 450 60 H I C CNN "P_Rating_U"
+F7 "2.5MM" 550 550 60 H I C CNN "P_Tolerance"
+F8 "MH_M2.5" 550 750 60 H I C CNN "Package"
+DRAW
+S -50 50 50 -50 0 1 0 N
+X 1 1 150 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
