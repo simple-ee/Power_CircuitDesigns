@@ -639,19 +639,19 @@ Text Notes 4825 1500 0    50   ~ 0
 2021/02/04
 Text Notes 5375 1500 0    50   ~ 0
 A3
-Wire Notes Line
+Wire Notes Line style solid
 	4800 1375 4800 1650
-Wire Notes Line
+Wire Notes Line style solid
 	4800 1650 10500 1650
-Wire Notes Line
+Wire Notes Line style solid
 	10500 1650 10500 1375
-Wire Notes Line
+Wire Notes Line style solid
 	8800 1375 8800 1650
-Wire Notes Line
+Wire Notes Line style solid
 	7125 1375 7125 1650
-Wire Notes Line
+Wire Notes Line style solid
 	6125 1375 6125 1650
-Wire Notes Line
+Wire Notes Line style solid
 	5350 1375 5350 1650
 Text Notes 6150 1500 0    50   ~ 0
 STEVEN GUZMAN
