@@ -185,39 +185,15 @@ X + 5 50 225 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Resistors_0603_ERA-3AEB103V
+# Resistors_0603_RC0603FR-0716RL
 #
-DEF Resistors_0603_ERA-3AEB103V R 0 0 N Y 1 F N
+DEF Resistors_0603_RC0603FR-0716RL R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
-F1 "Resistors_0603_ERA-3AEB103V" 100 0 50 V I C CNN
+F1 "Resistors_0603_RC0603FR-0716RL" 100 0 50 V I C CNN
 F2 "Passives:R_0603_Handsolder" -70 0 50 V I C CNN
 F3 "" 80 0 50 V V C CNN
-F4 "Panasonic Electronic Components" 180 100 60 V I C CNN "Manufacturer"
-F5 "10k" 100 0 50 V V C CNN "P_Value"
-F6 "1/10W" 300 300 60 V I C CNN "P_Rating_U"
-F7 "0.1%" 400 400 60 V I C CNN "P_Tolerance"
-F8 "0603" -75 0 25 V V C CNN "Package"
-F9 "P10KDBCT-ND" 0 0 25 H I C CNN "P_Digikey"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistors_0603_RC0603FR-07100RL
-#
-DEF Resistors_0603_RC0603FR-07100RL R 0 0 N Y 1 F N
-F0 "R" 0 0 50 V V C CNN
-F1 "Resistors_0603_RC0603FR-07100RL" 100 0 50 V I C CNN
-F2 "Passives:R_0603_Handsolder" -70 0 50 V I C CNN
-F3 "" 80 0 50 V V C CNN
-F4 "Susumu" 180 100 60 V I C CNN "Manufacturer"
-F5 "100R" 100 0 50 V V C CNN "P_Value"
+F4 "Yageo" 180 100 60 V I C CNN "Manufacturer"
+F5 "16R" 100 0 50 V V C CNN "P_Value"
 F6 "1/10W" 300 300 60 V I C CNN "P_Rating_U"
 F7 "1%" 400 400 60 V I C CNN "P_Tolerance"
 F8 "0603" -75 0 25 V V C CNN "Package"
@@ -232,17 +208,19 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistors_0603_RMCF0603ZT0R00
+# Resistors_0603_RC0603FR-07470RL
 #
-DEF Resistors_0603_RMCF0603ZT0R00 R 0 0 N Y 1 F N
+DEF Resistors_0603_RC0603FR-07470RL R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
-F1 "Resistors_0603_RMCF0603ZT0R00" 100 0 50 V I C CNN
-F2 "Passives:R_0603_Handsolder" -70 0 50 V I C CNN
+F1 "Resistors_0603_RC0603FR-07470RL" 300 625 50 H I C CNN
+F2 "Passives:R_0603_Handsolder" 550 525 50 H I C CNN
 F3 "" 80 0 50 V V C CNN
-F4 "Stackpole Electronics Inc." 180 100 60 V I C CNN "Manufacturer"
-F5 "0R" 100 0 50 V V C CNN "P_Value"
-F6 "1/10W" 300 300 50 V I C CNN "P_Rating"
-F7 "0603" -75 0 25 V V C CNN "Package"
+F4 "Yageo" 180 100 60 V I C CNN "Manufacturer"
+F5 "470R" 150 50 50 H V C CNN "P_Value"
+F6 "1/10W" 300 300 60 V I C CNN "P_Rating_U"
+F7 "1%" 75 -75 25 H V L CNN "P_Tolerance"
+F8 "0603" 75 -25 25 H V L CNN "Package"
+F9 "311-470HRCT-ND " 150 700 50 H I C CNN "P_Digikey"
 $FPLIST
  R_*
  Resistor_*

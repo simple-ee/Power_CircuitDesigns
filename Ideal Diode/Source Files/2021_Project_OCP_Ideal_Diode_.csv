@@ -1,0 +1,12 @@
+Item,Description,Part,P_Value,References,Quantity,Manufacturer,P_Digikey
+1,"Ceramic Capacitor, 0.1uF, 50V, X7R, 0603",C0603C104K5RACAUTO,0.1uF,C103,1,KEMET,
+2,"Ceramic Capacitor, 1uF, 50V, X5R, 0603",CL10A105KB8NNNC,1uF,C102,1,Samsung Electro-Mechanics,
+3,"Ceramic Capacitor, 10uF, 16V, X6S, 0603",CL10X106MO8NRNC,10uF,C101,1,Samsung Electro-Mechanics,
+4,"TVS Diode, 34Vm, 43VCL, 36VBR, SOT-23-3",DESD34VS2SO,34Vm,D101,1,Diodes Incorporated,DESD34VS2SO-7DICT-ND
+5,"MOSFET, N-Channel, 40V, 425A, 375W, SOT-1235",PSMNR70-40SSHJ,NMOS,Q101,1,Nexperia USA Inc.,1727-8560-1-ND
+6,"Resistor, 10k, 0.1%, 1/10W, 0603",ERA-3AEB103V,10k,R104,1,Panasonic Electronic Components,P10KDBCT-ND
+7,"Resistor, 100R, 1%, 1/10W, 0603",RC0603FR-07100RL,100R,R101,1,Susumu,
+8,"Resistor, 0R, 1/10W, 0603",RMCF0603ZT0R00,0R,R105,1,Stackpole Electronics Inc.,
+9,"Thermal Jumper, 4 C/W, Vishay, 0612",THJP0612AST1,TJ,R102 R103 R106,3,Vishay Thin Film,764-THJP0612AST1CT-ND
+10,"Opamp, 1-CH, Zero Drift, Rail-to-rail, 4.5V-45V, SOT-23-5",MCP6V51T-E_OT,1-CH,U102,1,Microchip Technology,MCP6V51T-E/OT
+11,"IC, LDO, 12V, 15mA, SOT-23-3",ZXTR2112F-7,12V,U101,1,Diodes Incorporated,ZXTR2112F-7DICT-ND
