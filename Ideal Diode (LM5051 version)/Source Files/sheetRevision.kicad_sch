@@ -1,0 +1,271 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "468b234a-32ab-4664-b4ba-554293fb8edc")
+	(paper "A")
+	(title_block
+		(date "2022-07-25")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 192.405 21.59) (xy 235.585 21.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "024cd67d-737f-4101-868c-2f3f3c9fd8ad")
+	)
+	(polyline
+		(pts
+			(xy 47.625 21.59) (xy 47.625 142.875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0945ca44-c1e5-4965-ac18-c1e8f79a7bed")
+	)
+	(polyline
+		(pts
+			(xy 192.405 142.875) (xy 235.585 142.875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0c08e340-663d-47a0-b4bc-f673a45bd53c")
+	)
+	(polyline
+		(pts
+			(xy 47.625 142.875) (xy 192.405 142.875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "220f9a66-8272-458e-a2be-ffd5179c16a6")
+	)
+	(polyline
+		(pts
+			(xy 47.625 21.59) (xy 192.405 21.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "390138e3-eff4-4331-b32c-d79a96344a5f")
+	)
+	(polyline
+		(pts
+			(xy 61.595 21.59) (xy 61.595 142.875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "57413a70-c10a-4f10-b930-21bdad541e5f")
+	)
+	(polyline
+		(pts
+			(xy 47.625 26.67) (xy 192.405 26.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5839b594-ed55-4fe5-b3b1-0b1136096bb8")
+	)
+	(polyline
+		(pts
+			(xy 192.405 26.67) (xy 235.585 26.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8cee3a0b-e848-4636-8bc2-7dd95dadc1ef")
+	)
+	(polyline
+		(pts
+			(xy 81.28 21.59) (xy 81.28 142.875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "94f6c793-ca1d-4c41-86a2-f435e7bf42bd")
+	)
+	(polyline
+		(pts
+			(xy 106.68 21.59) (xy 106.68 142.875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "aeec0966-9e95-45e5-b1b1-4f2590176f0f")
+	)
+	(polyline
+		(pts
+			(xy 192.405 21.59) (xy 192.405 142.875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b970ce92-c9f6-41f7-8442-9053747ca562")
+	)
+	(polyline
+		(pts
+			(xy 192.405 31.115) (xy 47.625 31.115)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c1d73080-276b-45e7-b981-fb54f11ac6dd")
+	)
+	(polyline
+		(pts
+			(xy 192.405 31.115) (xy 235.585 31.115)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c9553094-20f6-4db1-8a99-1a4898031f1d")
+	)
+	(polyline
+		(pts
+			(xy 235.585 21.59) (xy 235.585 142.875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ff4669bd-d25a-47be-ac97-cba75e70ef8a")
+	)
+	(text "INITIAL RELEASE DESIGN"
+		(exclude_from_sim no)
+		(at 107.315 29.845 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "159cfcff-d58e-4ae2-86a7-d97a5b306c8b")
+	)
+	(text "20220728_PROJECTS_IdealDiode02_A0_00001"
+		(exclude_from_sim no)
+		(at 193.04 29.845 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3de3978a-f96f-4a66-a895-718e26aab6f4")
+	)
+	(text "220728"
+		(exclude_from_sim no)
+		(at 48.26 29.845 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ffecd08-2346-4ec6-a7ad-5cfb6213acc6")
+	)
+	(text "REVISION:"
+		(exclude_from_sim no)
+		(at 61.595 26.035 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "62003daa-7064-45b7-9b1d-ff0c35795429")
+	)
+	(text "STEVEN G."
+		(exclude_from_sim no)
+		(at 81.915 29.845 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b78d170-b8b7-4e27-ac1a-50c2e4d266ee")
+	)
+	(text "REVISION CODE:"
+		(exclude_from_sim no)
+		(at 192.405 26.035 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fff292e-ca82-4006-9679-30a020251e33")
+	)
+	(text "DESCRIPTION:"
+		(exclude_from_sim no)
+		(at 106.68 26.035 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "86e44e30-3851-45de-bd36-197dc7653474")
+	)
+	(text "DATE:"
+		(exclude_from_sim no)
+		(at 47.625 26.035 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0f18f67-f4db-421d-ab59-7874eed312bb")
+	)
+	(text "A0"
+		(exclude_from_sim no)
+		(at 62.23 29.845 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cce9110c-9be4-470b-83f3-c092162f4437")
+	)
+	(text "CREATED BY:"
+		(exclude_from_sim no)
+		(at 81.28 26.035 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f39a273c-e010-4301-9b74-8563ec4f3b6f")
+	)
+)

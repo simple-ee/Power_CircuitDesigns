@@ -1,0 +1,346 @@
+(footprint "D_SMA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode SMA (DO-214AC)")
+	(tags "Diode SMA (DO-214AC)")
+	(property "Reference" "REF**"
+		(at -4 0 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "83ab52d4-557f-4703-8977-26319c29b0f0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CDBA160-G"
+		(at 0 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3760af5b-a340-47bd-aa96-514f1216aba8")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04201e34-f71a-4305-b106-e1aaabf2637e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "702b7dfb-ccf0-4485-8fce-e2d3812be184")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Diode, Schottky, 60V, 1A, Comchip Technology, SMA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ee99af9-f615-4bad-8150-6656aec669fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Comchip Technology"
+		(at 308 -97 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bede004f-51c3-4c01-b334-9a3fc7db3334")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "P_Digikey" "641-1092-1-ND"
+		(at 308 -97 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a420887-969e-4195-83c9-bdb3b118daeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "P_Rating" "60V, 1A"
+		(at 308 -97 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f8d0ef3-5515-45b3-887e-1fee4a88e8e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "P_Tolerance" "0.700V"
+		(at 308 -97 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f95b68d-1b80-442f-bd79-6e19b2e8712a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "P_Value" "Schottky"
+		(at 308 -97 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5b0cab8-457d-4a32-ad08-a3c868669f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SMA"
+		(at 308 -97 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d2325e-9624-492a-9937-5f2bce2d18cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4 -1.65)
+		(end -3.4 1.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a5033d5-d5f3-46b8-8d24-782cbb84aad1")
+	)
+	(fp_line
+		(start -3.4 -1.65)
+		(end 2 -1.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ffcbf34-2121-44e3-9bec-b79b700746c1")
+	)
+	(fp_line
+		(start -3.4 1.65)
+		(end 2 1.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f65cb28-3a1b-4fd7-a5c4-1c6d1e39f1cc")
+	)
+	(fp_line
+		(start -3.5 -1.75)
+		(end 3.5 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9315373-4485-45f7-b37a-a86ed053bcf6")
+	)
+	(fp_line
+		(start -3.5 1.75)
+		(end -3.5 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b2efc22-85ba-4b19-86e6-976d66eb8306")
+	)
+	(fp_line
+		(start 3.5 -1.75)
+		(end 3.5 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8fc66ac-a26c-4c41-b353-36048ef0fb75")
+	)
+	(fp_line
+		(start 3.5 1.75)
+		(end -3.5 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d36e8578-5255-4eef-af48-fddd5c3f336a")
+	)
+	(fp_line
+		(start -2.3 1.5)
+		(end -2.3 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e6f8d3d-0815-455f-885f-6f9f9fccc56d")
+	)
+	(fp_line
+		(start -0.64944 -0.79908)
+		(end -0.64944 0.80112)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be375a4b-8d70-4647-ab9c-1875f0f41718")
+	)
+	(fp_line
+		(start -0.64944 0.00102)
+		(end -1.55114 0.00102)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "996e58a0-8b5d-4011-80dd-1b7dd45024f1")
+	)
+	(fp_line
+		(start -0.64944 0.00102)
+		(end 0.50118 -0.79908)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cdd544b-8dcb-47bb-99c6-441b2266a825")
+	)
+	(fp_line
+		(start -0.64944 0.00102)
+		(end 0.50118 0.75032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f42d87e7-8903-4620-bd0d-c67bc5a283a3")
+	)
+	(fp_line
+		(start 0.50118 0.00102)
+		(end 1.4994 0.00102)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "317e22d8-bdfb-475a-be99-d7b475e42acf")
+	)
+	(fp_line
+		(start 0.50118 0.75032)
+		(end 0.50118 -0.79908)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "541f9b43-892c-4075-adc1-3ce5e17bc779")
+	)
+	(fp_line
+		(start 2.3 -1.5)
+		(end -2.3 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbb63921-e03c-4488-8012-7349d6fa625e")
+	)
+	(fp_line
+		(start 2.3 -1.5)
+		(end 2.3 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15256177-912c-42a6-ac1d-bbe364745ce1")
+	)
+	(fp_line
+		(start 2.3 1.5)
+		(end -2.3 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5b9992e-5291-4598-ae1d-966134aca75e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1528effc-e7b9-444b-8ea6-4519af6eb8bc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2 0)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3dd86d3-54d5-4840-8f81-04f5052ecb9a")
+	)
+	(pad "2" smd rect
+		(at 2 0)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d58c0dda-19e8-4f04-a808-05eedd660ba3")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

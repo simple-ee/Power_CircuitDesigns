@@ -1,0 +1,187 @@
+(footprint "Heatsink_28x28x10mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.8 -7.15 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bb9e5344-adf7-4295-98ce-171619d67211")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_28x28x10mm"
+		(at 0.1 -17.6 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8e329b52-663b-4c26-aaa3-431bc9e7cfc6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ea7b123e-173a-424e-82a0-e1633a32def5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "4a2c808e-3d00-4423-b852-cfccc3f4d409")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Heatsink, 28x28x10mm, Aluminum"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "e7f59628-44a9-43b5-880d-56ffcd310c15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Manufacturer" "###"
+		(at 370 -203 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e5dad3-100a-4df8-8682-c8130c0d6d8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "P_Rating_U" "###"
+		(at 370 -203 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92ffed0e-267f-40e8-aecb-a31b6b656106")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "P_Tolerance" "28mm"
+		(at 370 -203 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45134d46-bbae-42c0-9633-c678030eee05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "P_Value" "1POS"
+		(at 370 -203 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ee765ca-9f4b-487b-9219-e1ee7bed6880")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SMD"
+		(at 370 -203 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d903df4-1990-409e-a704-f125996beeb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 14 14)
+		(end -14 14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c21c0aa9-3f7b-4c34-a36f-2e382fd420e3")
+	)
+	(fp_line
+		(start 14 -14)
+		(end 14 14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21613d38-e9d9-4ef7-b053-facd978c106a")
+	)
+	(fp_line
+		(start -14 14)
+		(end -14 -14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6c8d031-c7cc-41fb-afbf-f5614d233909")
+	)
+	(fp_line
+		(start -14 -14)
+		(end 14 -14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71ef5367-e33d-436a-88ec-657d05ae2360")
+	)
+	(pad "1" smd rect
+		(at 0 0 180)
+		(size 28 28)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc9ebe29-770a-4297-b3c3-1d08445443a7")
+	)
+	(model "${KICAD_CUSTOM}/3D/Heatsink/Heatsink_28x28x10mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
